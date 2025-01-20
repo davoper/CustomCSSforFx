@@ -116,7 +116,7 @@
 */
 
 /* default 'grey' colors */
-@import "./config/color_variables.css"; /**/
+/* @import "./config/color_variables.css"; /**/
 
 /* 'AeroBlue' colors (Win 7 Aero) */
 /* @import "./config/color_variables_aero.css"; /**/
@@ -178,7 +178,7 @@
    [!] Firefox 88 icon set uses SVG images
 */
 
-@import "./css/buttons/icons_colorized.css"; /**/
+/* @import "./css/buttons/icons_colorized.css"; /**/
 /* @import "./css/buttons/icons_white_icons.css"; /**/
 /* @import "./css/buttons/icons_custom_icons.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_fx1.css"; /**/
@@ -195,7 +195,7 @@
 /* @import "./css/buttons/icons_custom_icons_old_chrome.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_old_osx.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_tango.css"; /**/
-/* @import "./css/buttons/icons_custom_icons_fx45.css"; /**/
+/* @import "./css/buttons/icons_custom_icons_fx45.css"; /* dpc 2022-02-20 - offset problem when dragging tab when this is enabled*/
 /* @import "./css/buttons/icons_custom_icons_fx45_inverted.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_fx88.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_fx88_colorized.css"; /**/
@@ -219,7 +219,7 @@
    [!] good for Dark themes: buttons_on_navbar_glass_appearance.css
 */
 
-@import "./css/buttons/buttons_on_navbar_classic_appearance.css"; /**/
+/* @import "./css/buttons/buttons_on_navbar_classic_appearance.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_classic_appearance_v2.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_classic_appearance_dark.css"; /**/		
 /* @import "./css/buttons/buttons_on_navbar_aero_appearance.css"; /**/
@@ -261,7 +261,7 @@
    [!] 'compact mode' got hidden behind the 'about:config' preference 'browser.compactmode.show'
    [!] enable browser.compactmode.show preference and compact density in 'Customize' mode
 */
-/* @import "./css/buttons/buttons_on_navbar_more_compact_mode.css"; /**/
+@import "./css/buttons/buttons_on_navbar_more_compact_mode.css"; /**/
 
 
 /* ------------------------------------
@@ -579,7 +579,7 @@
    [!] only use one option at a time
 */
 
-/* @import "./css/tabs/tabs_below_navigation_toolbar.css"; /**/ /* for Firefox 133+ */
+@import "./css/tabs/tabs_below_navigation_toolbar.css"; /**/ /* for Firefox 133+ */
 /* @import "./css/tabs/tabs_below_navigation_toolbar_fx128-132.css"; /**/ /* for Firefox 128-132 */
 
 
@@ -623,14 +623,14 @@
 */
 
 /* Edit target file to set own custom colors */
-/* @import "./config/custom_tab_color_settings.css"; /**/
+@import "./config/custom_tab_color_settings.css"; /**/
 
 /* TAB TEXT colors/shadow/weight/style for default/active/hovered/unloaded tabs
 
    [!] Edit target file to set own custom colors
 */
  
-/* @import "./config/custom_tab_text_settings.css"; /**/
+@import "./config/custom_tab_text_settings.css"; /**/
 
 
 /* ------------------------------------------
@@ -685,10 +685,10 @@
    [!] only use one option at a time
 */
 
-@import "./css/tabs/tab_close_always_visible.css"; /**/
+/* @import "./css/tabs/tab_close_always_visible.css"; /**/
 /* @import "./css/tabs/tab_close_on_active_tab_only.css"; /**/
 /* @import "./css/tabs/tab_close_show_on_hover_only.css"; /**/
-/* @import "./css/tabs/tab_close_hidden.css"; /**/
+@import "./css/tabs/tab_close_hidden.css"; /**/
 /* @import "./css/tabs/tab_close_hidden_for_only_one_visible_tab.css"; /**/
 /* @import "./css/tabs/tab_close_at_tabs_start.css"; /**/
 /* @import "./css/tabs/tab_close_icon_size.css"; /**/
@@ -734,9 +734,9 @@
 /* @import "./css/tabs/tabs_active_tab_indicator_for_classic_squared_tabs.css"; /**/
 /* @import "./css/tabs/newtab_tab_size_equals_tab_size.css"; /**/
 /* @import "./css/tabs/newtab_button_always_visible.css"; /**/
-/* @import "./css/tabs/tab_icon_inactive_tabs_lower_opacity.css"; /**/
+@import "./css/tabs/tab_icon_inactive_tabs_lower_opacity.css"; /**/
 /* @import "./css/tabs/tab_icon_unloaded_tabs_lower_opacity.css"; /**/
-/* @import "./css/tabs/tab_maxwidth.css"; /**/
+@import "./css/tabs/tab_maxwidth.css"; /**/
 /* @import "./css/tabs/tab_titles_remove_blur.css"; /**/
 /* @import "./css/tabs/alltabs_button_always_visible.css"; /**/  /* hidden, if multiple tab rows are used */
 /* @import "./css/tabs/alltabs_button_only_visible_in_overflow_mode.css"; /**/ 
@@ -756,7 +756,7 @@
 @import "./css/generalui/private_mode_indicator_hidden.css"; /**/
 @import "./css/generalui/bookmark_icons_colorized.css"; /**/
 /* @import "./css/generalui/searchbookmarks_hidden.css"; /**/
-/* @import "./css/generalui/bookmarks_smaller_more_bookmarks_icon.css"; /**/
+@import "./css/generalui/bookmarks_smaller_more_bookmarks_icon.css"; /**/
 /* @import "./css/generalui/send_to_device_menuitems_hidden.css"; /**/
 /* @import "./css/generalui/set_as_desktop_background_menuitems_hidden.css"; /**/
 /* @import "./css/generalui/increase_ui_font_size.css"; /**/
@@ -785,9 +785,9 @@
    [!] affects context menus, popup menus and panel menus
 */
 
-/* @import "./css/generalui/popup_compact_menus.css"; /**/
-/* @import "./css/generalui/popup_compact_menus_squared.css"; /**/
-/* @import "./css/generalui/popup_menus_space_before_label.css"; /**/
+@import "./css/generalui/popup_compact_menus.css"; /**/
+@import "./css/generalui/popup_compact_menus_squared.css"; /**/
+@import "./css/generalui/popup_menus_space_before_label.css"; /**/
 /* @import "./css/generalui/popup_menus_menu_background.css"; /**/
 
 
