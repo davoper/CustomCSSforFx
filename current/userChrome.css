@@ -579,8 +579,8 @@
    [!] only use one option at a time
 */
 
-@import "./css/tabs/tabs_below_navigation_toolbar.css"; /**/ /* for Firefox 133+ */
-/* @import "./css/tabs/tabs_below_navigation_toolbar_fx128-132.css"; /**/ /* for Firefox 128-132 */
+/* @import "./css/tabs/tabs_below_navigation_toolbar.css"; /**/ /* for Firefox 133+ */
+@import "./css/tabs/tabs_below_navigation_toolbar_fx128-132.css"; /**/ /* for Firefox 128-132 */
 
 
 /* Alternative for multi-lined tabs (Possible glitches with inactive menubar!)
